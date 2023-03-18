@@ -21,6 +21,7 @@ const config = {
 			fallback: null,
 			precompress: false,
 			strict: true,
+			trailingSlash: 'always',
 			paths: { base: dev ? '' : '/runaway-train' }
 		})
 	}
